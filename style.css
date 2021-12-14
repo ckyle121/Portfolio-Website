@@ -35,7 +35,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
   }
 
 header h1, footer h2 {
@@ -75,6 +74,7 @@ header nav ul li a:hover, footer nav ul li a:hover {
     color: var(--hot-pink);
     border-radius: 10px;
     text-shadow: none;
+    text-decoration:underline;
   }
 
 footer nav ul li p:hover{
@@ -82,6 +82,7 @@ footer nav ul li p:hover{
     color: var(--hot-pink);
     border-radius: 10px;
     text-shadow: none;
+    text-decoration:underline;
 }
 
 /* apply styles to FOOTER-- CONTACT ME section */
@@ -136,3 +137,21 @@ footer h2 {
 
 /* apply styles to WORK section */ 
 
+.work h3{
+    color: var(--yellow);
+    font-size: 25px;
+    margin: 10px;
+    display: inline-flex; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+}
+
+.work img {
+    border: 5px solid var(--purple);
+    padding: 15px;
+    max-width: 50%;
+}
+
+.work img:first-child{
+    width: 90%;
+}
