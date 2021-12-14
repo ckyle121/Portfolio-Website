@@ -18,6 +18,11 @@
 body{
     color: var(--purple);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light-pink);
+}
+
+section{
+    padding: 10px 40px;
 }
 
 /* apply styles to the HEADER (NAVIGATION BAR) and FOOTER (same elements) */
@@ -35,9 +40,10 @@ header {
 
 header h1, footer h2 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     color: var(--yellow);
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 header a, footer a, footer p {
@@ -61,6 +67,7 @@ header nav ul li a, footer nav ul li, footer nav ul li a, footer nav ul li p {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   }
 
 header nav ul li a:hover, footer nav ul li a:hover {
@@ -88,14 +95,25 @@ footer {
   }
 
 footer h2 {
-    padding-top: 15px;
+    padding-top: 16px;
     color: var(--yellow);
     font-size: 40px;
     margin: 0; 
     display: flex;
 }
 
-/* apply styles to ABOUT ME section */
-
+/* apply styles to ABOUT ME (HERO) section */
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.hero h2, .work h2{
+    color: var(--yellow);
+    font-size: 40px;
+    margin:0;
+    display: flex; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
 /* apply styles to WORK section */ 
 
