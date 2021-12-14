@@ -123,10 +123,16 @@ footer h2 {
     align-items: flex-start;
 }
 .hero p{
+    flex:1; 
     font-size: 20px;
 }
+
 .hero img{
-    width:100%;
+    height: auto;
+    width:50%;
+    border: 10px double var(--purple);
+    padding: none;
 }
+
 /* apply styles to WORK section */ 
 
