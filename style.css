@@ -20,7 +20,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* apply styles to the HEADER (NAVIGATION BAR) */
+/* apply styles to the HEADER (NAVIGATION BAR) and FOOTER (same elements) */
 header {
     padding: 20px 35px;
     background-color: var(--light-purple);
@@ -33,7 +33,7 @@ header {
     z-index: 9999;
   }
 
-header h1 {
+header h1, footer h2 {
     font-weight: bold;
     font-size: 36px;
     color: var(--yellow);
@@ -88,8 +88,9 @@ footer {
   }
 
 footer h2 {
+    padding-top: 15px;
     color: var(--yellow);
-    font-size: 36px;
+    font-size: 40px;
     margin: 0; 
     display: flex;
 }
