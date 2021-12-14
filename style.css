@@ -1,0 +1,64 @@
+/* for every element on the style sheet */
+
+:root{
+    --yellow: #fce128;
+    --light-purple: #86A8E7;
+    --purple: #663399;
+    --hot-pink: #C71585;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* apply styles to the HEADER (NAVIGATION BAR) */
+header {
+    padding: 20px 35px;
+    background-color: var(--light-purple);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--yellow);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+header nav ul li a:hover {
+    background: var(--yellow);
+    color: var(--hot-pink);
+    border-radius: 10px;
+    text-shadow: none;
+  }
