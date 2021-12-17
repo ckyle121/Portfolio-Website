@@ -126,6 +126,8 @@ footer h2 {
 .hero p{
     flex:1; 
     font-size: 20px;
+    padding: 20px 25px;
+    justify-content: center;
 }
 
 .hero img{
@@ -139,17 +141,29 @@ footer h2 {
 
 .work h3{
     color: var(--yellow);
+    background-color: var(--purple);
     font-size: 25px;
     margin: 10px;
     display: inline-flex; 
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     z-index: 9999;
+    padding: 15px;
+
+}
+
+.work h3:hover{
+    background: var(--yellow);
+    color: var(--hot-pink);
+    text-shadow: none;
+    text-decoration:underline;
 }
 
 .work img {
     border: 5px solid var(--purple);
     padding: 15px;
     max-width: 50%;
+    height: auto;
+    position:relative;
 }
 
 .work img:first-child{
