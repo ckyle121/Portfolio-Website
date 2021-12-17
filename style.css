@@ -148,21 +148,25 @@ footer h2 {
 
 .work-body img{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
-    height: auto;
     border: 5px solid var(--hot-pink);
-    opacity: 0.5;
+    opacity: 0.75;
     margin: 10px;
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    margin: 10px;
-    height: auto;
 }
+
+.movies, .weather{
+    width:50%
+}
+
+.work-image{
+    height: 100%; 
+}
+
 .work-body img:hover{
     opacity: 1;
 }
@@ -179,6 +183,8 @@ footer h2 {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    height: 20%;
+    width: 20%; 
 
 }
 
