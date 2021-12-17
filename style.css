@@ -142,14 +142,24 @@ footer h2 {
 .movies, .weather, .run-buddy{
     position: relative;
     flex-wrap: wrap;
+    flex: 1;
 }
 
+
 .work-body img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 50%;
-    height: auto;
-    border: 10px solid var(--hot-pink);
+    border: 5px solid var(--hot-pink);
     opacity: 0.5;
+    margin: 10px;
 }
+
+.run-buddy img{
+    width: 100%;
+}
+
 
 .work-body img:hover{
     opacity: 1;
@@ -160,7 +170,7 @@ footer h2 {
     background-color: var(--purple);
     font-size: 25px;
     margin: 10px;
-    display: inline-flex; 
+    display: flex; 
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     z-index: 999;
     padding: 15px;
