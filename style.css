@@ -150,17 +150,19 @@ footer h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border: 5px solid var(--hot-pink);
     opacity: 0.5;
     margin: 10px;
 }
 
-.run-buddy img{
-    width: 100%;
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: auto;
 }
-
-
 .work-body img:hover{
     opacity: 1;
 }
