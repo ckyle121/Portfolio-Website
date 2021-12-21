@@ -126,9 +126,9 @@ footer h2 {
     align-items: flex-start;
 }
 .hero p{
-    flex:1; 
-    font-size: 20px;
-    padding: 20px 25px;
+    flex: 1; 
+    font-size: 1.5vw;
+    padding: 100px 25px;
     justify-content: center;
 }
 
