@@ -5,191 +5,35 @@
     --light-purple: #86A8E7;
     --purple: #663399;
     --hot-pink: #C71585;
-    --light-pink: #ffb6c1;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    --light-blue: #b6dcff;
 }
 
 /* apply styles to body elements*/
 body{
     color: var(--purple);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--light-pink);
+    font-family: "Raleway", sans-serif;
+    background-color: var(--light-blue);
 }
 
-section{
-    padding: 10px 40px;
-}
-
-/* apply styles to the HEADER (NAVIGATION BAR) and FOOTER (same elements) */
-header {
-    padding: 20px 35px;
-    background-color: var(--light-purple);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-  }
-
-header h1, footer h2 {
+h2 {
+    color: var(--hot-pink);
     font-weight: bold;
-    font-size: 40px;
-    color: var(--yellow);
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
-header a, footer a, footer p {
-    text-decoration: none;
-    color: var(--yellow);
-}
 
-header nav, footer nav ul{
-    margin: 7px 0;
-}
 
-header nav ul, footer nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a, footer nav ul li, footer nav ul li a, footer nav ul li p {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  }
-
-header nav ul li a:hover, footer nav ul li a:hover {
-    background: var(--yellow);
-    color: var(--hot-pink);
-    border-radius: 10px;
-    text-shadow: none;
-    text-decoration:underline;
-  }
-
-footer nav ul li p:hover{
-    background: var(--yellow);
-    color: var(--hot-pink);
-    border-radius: 10px;
-    text-shadow: none;
-    text-decoration:underline;
-}
-
-/* apply styles to FOOTER-- CONTACT ME section */
-footer {
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background: var(--light-purple);
+img{
     width: 100%;
-    padding: 40px 35px;
-  }
-
-footer h2 {
-    padding-top: 16px;
-    color: var(--yellow);
-    font-size: 40px;
-    margin: 0; 
-    display: flex;
-}
-
-/* apply styles to ABOUT ME (HERO) section */
-.hero{
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin: 10px;
-    flex:1;
-}
-.hero h2, .work h2{
-    color: var(--hot-pink);
-    font-size: 45px;
-    margin:0;
-    display: flex; 
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    text-decoration: underline;
-}
-
-.hero-body{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-.hero p{
-    flex: 1; 
-    font-size: 1.5vw;
-    padding: 100px 25px;
-    justify-content: center;
-}
-
-.hero img{
-    height: auto;
-    width:50%;
-    border: 10px double var(--purple);
-    padding: none;
-}
-
-/* apply styles to WORK section */ 
-.movies, .weather, .run-buddy{
-    position: relative;
-    flex-wrap: wrap;
-    flex: 1;
-}
-
-
-.work-body img{
-    display: flex;
-    width: 100%;
-    border: 5px solid var(--hot-pink);
+    border: 5px solid var(--yellow);
     opacity: 0.75;
     margin: 10px;
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
+.bio-img {
+    opacity: 1;
+    border: 5px solid var(--hot-pink);
 }
 
-.movies, .weather{
-    width:50%
-}
-
-.work-image{
-    height: 100%; 
-}
-
-.work-body img:hover{
+img:hover{
     opacity: 1;
 }
-
-.image-label h3{
-    color: var(--yellow);
-    background-color: var(--purple);
-    font-size: 1.5vw;
-    margin: 10px;
-    display: flex; 
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    z-index: 999;
-    padding: 15px;
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.image-label h3:hover{
-    background: var(--yellow);
-    color: var(--hot-pink);
-    text-shadow: none;
-    text-decoration:underline;
-}
-
