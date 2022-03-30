@@ -1,16 +1,15 @@
 /* for every element on the style sheet */
 
 :root{
-    --yellow: #fce128;
-    --light-purple: #86A8E7;
-    --purple: #663399;
-    --hot-pink: #C71585;
-    --light-blue: #b6dcff;
+    --yellow: #FFE042;
+    --dark-blue: #021F59;
+    --blue: #035AA6;
+    --light-blue: #A0CCF2;
 }
 
 /* apply styles to body elements*/
 body{
-    color: var(--purple);
+    color: var(--dark-blue);
     font-family: "Raleway", sans-serif;
     background-color: var(--light-blue);
 }
@@ -20,31 +19,39 @@ a {
 }
 
 h2 {
-    color: var(--hot-pink);
+    color: var(--blue);
     font-weight: bold;
     margin-top: 20px;
 }
 
 h3 {
-    color: var(--purple);
+    color: var(--dark-blue);
     text-decoration: none;
     font-weight: bolder;
 }
 
 
 h3:hover {
-    color: var(--hot-pink);
+    color: var(--blue);
 }
 
 img{
     width: 100%;
     border: 5px solid var(--yellow);
     opacity: 0.75;
+    height: 80%;
     
 }
 
 .bio-img {
     opacity: 1;
+    height: 100%;
+}
+
+.bio-text {
+    color: var(--darkblue);
+    text-align: center;
+    margin-top: 10px;
 }
 
 img:hover{
@@ -52,9 +59,9 @@ img:hover{
 }
 
 .navbar{
-    background-color: var(--purple);
+    background-color: var(--dark-blue);
 }
 
 footer{
-    background-color: var(--purple);
+    background-color: var(--dark-blue);
 }
