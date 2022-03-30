@@ -15,25 +15,46 @@ body{
     background-color: var(--light-blue);
 }
 
+a {
+    text-decoration: none;
+}
+
 h2 {
     color: var(--hot-pink);
     font-weight: bold;
+    margin-top: 20px;
+}
+
+h3 {
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
+h3:hover {
+    color: var(--hot-pink);
+}
 
 img{
     width: 100%;
     border: 5px solid var(--yellow);
     opacity: 0.75;
-    margin: 10px;
+    
 }
 
 .bio-img {
     opacity: 1;
-    border: 5px solid var(--hot-pink);
 }
 
 img:hover{
     opacity: 1;
+}
+
+.navbar{
+    background-color: var(--purple);
+}
+
+footer{
+    background-color: var(--purple);
 }
